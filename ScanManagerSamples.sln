@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.8.34322.80
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanManagerSamples", "ScanManagerSamples\ScanManagerSamples.csproj", "{9016753A-2DF9-4C63-9D58-AAD9255E5116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScanManagerSamples", "ScanManagerSamples\Minimal API Example\ScanManagerSamples.csproj", "{E73FCE7E-0DEF-421F-B10E-910EE210F76D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9016753A-2DF9-4C63-9D58-AAD9255E5116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9016753A-2DF9-4C63-9D58-AAD9255E5116}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9016753A-2DF9-4C63-9D58-AAD9255E5116}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9016753A-2DF9-4C63-9D58-AAD9255E5116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73FCE7E-0DEF-421F-B10E-910EE210F76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73FCE7E-0DEF-421F-B10E-910EE210F76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73FCE7E-0DEF-421F-B10E-910EE210F76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73FCE7E-0DEF-421F-B10E-910EE210F76D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E4A721FA-5E72-40E0-B845-88B12F5B60F1}
+		SolutionGuid = {7D84D7A1-338C-4134-B647-3599CC284303}
 	EndGlobalSection
 EndGlobal
