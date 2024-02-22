@@ -9,11 +9,11 @@ The instructions provided are for version <b>1.0.x</b> of the application.
 ## Basics
 Advanced settings allow you to write your own <b>C#</b> code to change behavior of application. We support <b>.NET8</b> and <b>C# 12</b>.
 <br/>
-For now, they are available events:
+For now, there are available events:
 - OnScanDetected
 - OnScanSaved
 <br/>
-Custom code will be stored as single XML file. So you can create this file in outside environment and load to your app by clicking "Import settings" <b>(1)</b>. (".xml or .txt file fromat is required). Later you can export settings by clicking "Export settings" <b>(2)</b>. Alternatively, you can write code directly in app by clicking "Edit code" <b>(3)</b>. The "Load Template" <b>(4)</b> option will load a template, which is a good starting point for code creation.
+Custom code will be stored as single XML file. So you can create this file in outside environment and load to your app by clicking "Import settings" <b>(1)</b>. (".xml or .txt file format is required). Later you can export settings by clicking "Export settings" <b>(2)</b>. Alternatively, you can write code directly in app by clicking "Edit code" <b>(3)</b>. The "Load Template" <b>(4)</b> option will load a template, which is a good starting point for code creation.
 <br/>
 <br/>
 
@@ -22,7 +22,7 @@ Custom code will be stored as single XML file. So you can create this file in ou
 <img src="https://github.com/owik100/ScanManagerSamples/blob/master/ScanManagerSamples/ExternalFiles/Img/LoadCode.PNG" >
 </p>
 
-If there are any problems with the code, it is not compiled correctly or detected, they will be shown in the "Errors" <b>(5)</b> section.
+if there are any problems with the code, such as not compiling correctly, all the info will be shown in the "Errors" <b>(5)</b> section.
 <br/>
 <br/>
 Using checkboxes, we can choose whether we currently want our code to be executed while the application is running. <b>(6)</b>
@@ -75,7 +75,7 @@ The C# code for this event should look like this template:
  }
 ```
 
-Required setps:
+Required steps:
 - Add using ScanManagerTriggerReferences;
 - Namespace must be ScanManagerProTriggers
 - Classname must be ScanDetectedTriggerClass
