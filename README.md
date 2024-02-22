@@ -146,7 +146,7 @@ namespace ScanManagerProTriggers
                     //It is not recommended to use httpClient in this way, but for now we do not have the option to use a static variable or IHttpClientFactory. I will try to solve this problem in future versions.
                     using (var client = new HttpClient())
                     {
-                        var request = new HttpRequestMessage(HttpMethod.Post, "http://192.168.0.107:8082" + "/POSTTEST");
+                        var request = new HttpRequestMessage(HttpMethod.Post, "https://192.168.0.107:8082" + "/POSTTEST");
                         var content = new StringContent("\"" + inputValue.DisplayValue + "\"", null, "application/json");
 
                         request.Content = content;
@@ -208,7 +208,7 @@ namespace ScanManagerProTriggers
                                 //It is not recommended to use httpClient in this way, but for now we do not have the option to use a static variable or IHttpClientFactory. I will try to solve this problem in future versions.
                                 using (var client = new HttpClient())
                                 {
-                                    var request = new HttpRequestMessage(HttpMethod.Post, "http://192.168.0.107:8082" + "/POSTTEST");
+                                    var request = new HttpRequestMessage(HttpMethod.Post, "https://192.168.0.107:8082" + "/POSTTEST");
                                     var content = new StringContent("\"" + inputValue.DisplayValue + "\"", null, "application/json");
 
                                     request.Content = content;
