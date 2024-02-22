@@ -147,7 +147,7 @@ namespace ScanManagerProTriggers
                     using (var client = new HttpClient())
                     {
                         var request = new HttpRequestMessage(HttpMethod.Post, "http://192.168.0.107:8082" + "/POSTTEST");
-                        var content = new StringContent("\"" + inputValue + "\"", null, "application/json");
+                        var content = new StringContent("\"" + inputValue.DisplayValue + "\"", null, "application/json");
 
                         request.Content = content;
                         var response = await client.SendAsync(request);
@@ -209,7 +209,7 @@ namespace ScanManagerProTriggers
                                 using (var client = new HttpClient())
                                 {
                                     var request = new HttpRequestMessage(HttpMethod.Post, "http://192.168.0.107:8082" + "/POSTTEST");
-                                    var content = new StringContent("\"" + inputValue + "\"", null, "application/json");
+                                    var content = new StringContent("\"" + inputValue.DisplayValue + "\"", null, "application/json");
 
                                     request.Content = content;
                                     var response = await client.SendAsync(request);
