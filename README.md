@@ -1,5 +1,5 @@
-# Scan Manager Pro - Advanced configuration
-[Scan Manager Pro](https://play.google.com/store/apps/details?id=com.lemonowik.scanmanagerpro) <img src="https://play-lh.googleusercontent.com/oWk4n17E8-HIAyxWvDuA6OKGLD5SV_vGVgE0Dnl6GbGf0qDXh9dkO_Yod9qoSrTtQwE=w240-h480-rw" width="128" height="128">  allows you to quickly scan barcodes, QR codes and others.
+# QR and Barcode Scan Manager - Advanced configuration
+[QR and Barcode Scan Manager](https://play.google.com/store/apps/details?id=com.lemonowikdev.qrandbarcodescanmanager) <img src="https://github.com/owik100/ScanManagerSamples/blob/master/ScanManagerSamples/ExternalFiles/Img/owik_app.svg" width="128" height="128">  allows you to quickly scan barcodes, QR codes and others.
 <br/>
 Here you will learn how you can customize app behaviors with advanced settings.
 <br/>
